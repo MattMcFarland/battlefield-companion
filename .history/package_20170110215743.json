@@ -1,0 +1,18 @@
+{
+  "name": "battlefield-companion",
+  "version": "1.0.0",
+  "description": "Connect to battlefield companion api",
+  "main": "lib/BFC",
+  "scripts": {
+    "install": "pip install requests",
+    "test": "node connect.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.79.0",
+    "unirest": "^0.5.1",
+    "uuid": "^3.0.1"
+  }
+}
